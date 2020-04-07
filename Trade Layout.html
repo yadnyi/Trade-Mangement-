@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Order entry and Trade management screen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link active" id="orderentry-tab" data-toggle="tab" href="#orderentry" role="tab" aria-controls="orderentry" aria-selected="true">Order Entry</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="trademanagement-tab" data-toggle="tab" href="#trademanagement" role="tab" aria-controls="trademanagement" aria-selected="false">Trade Management</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="pnl-tab" data-toggle="tab" href="#pnl" role="tab" aria-controls="pnl" aria-selected="false">P&L</a>
+				</li>
+			</ul>
+		</nav>
+		
+	<div class="tab-content">
+		<div class="tab-pane fade show active" id="orderentry" role="tabpanel" aria-labelledby="home-tab">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="dropdown">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">File</button>
+				<div class="dropdown-menu" id="dropdown">
+					<a class="dropdown-item" href="#">Save</a></br>
+					<a class="dropdown-item" href="#">Exit</a>
+				</div>
+				
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Settings</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Link 1</a></br>
+					<a class="dropdown-item" href="#">Link 2</a>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="btn-group" id="btn-group">
+				<button type="button" class="btn btn-primary">Buy Stock</button>
+				<button type="button" class="btn btn-primary">Sell Stock</button>
+			</div>
+			</nav>
+			
+		</nav>
+		</div>
+		
+		
+	
+     
+    
+	
+    
+	
+	
+	
+	
+	<div class="tab-pane fade" id="trademanagement" role="tabpanel" aria-labelledby="trademanagement-tab">
+      <h3>Menu 1</h3>
+      
+    </div>
+	
+    <div class="tab-pane fade" id="pnl" role="tabpanel" aria-labelledby="pnl-tab">
+      <h3>Menu 2</h3>
+      
+    </div>
+    
+	</div>
+	</div>
+		
+		
+		
+		
+		
+
+</body>
